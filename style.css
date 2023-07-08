@@ -20,9 +20,36 @@ nav{
     font-size: 30px;
 
 }
-.head-content{
+.head-container{
     background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
     background-size: cover;
     background-blend-mode: overlay;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head-content{
+    width: 800px;
+}
+.head1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 70px;
+}
+.spam{
+    color: red;
+}
+.pera1{
+    font-size: 22px;
+    color: white;
+}
+.btn{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    gap: 10px;
+}
+.btm{
+    background-color: red;
 }
