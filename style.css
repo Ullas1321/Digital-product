@@ -53,3 +53,88 @@ nav{
 .btm{
     background-color: red;
 }
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("asset/image/footer-bg.png");
+    background-color:black;
+    /* linear-gradient(rgba(34, 32, 32, 0.2)rgba(0,0,0,0.4)); */
+}
+.icon{
+    height: 150px;
+    width: 150px;
+    
+}
+.service-icon{
+    padding: 100px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+.all-service1{
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    
+    
+}
+.all-service2{
+    display: flex;
+    gap: 20px;  
+    color: white;
+    background-color: #fff;
+
+
+}
+.service-text{
+    width: 700px;
+}
+.service-head{
+    font-size: 55px;
+    color: white;
+    text-transform: capitalize;
+}
+.service-sp{
+    color: red;
+}
+.ol{
+    color: white;
+    font-size: 25px;
+}
+.service-btn{
+    width: 200px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.second-img{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius:50px;
+}
+.second-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.second4{
+
+    margin-bottom: 50px;
+    
+}
+.btn4{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+}
+.bt{
+    border-left: 1px solid red;
+
+}
+hr{
+    height: 20px ;
+}
