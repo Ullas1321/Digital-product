@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:rgb(66, 63, 63);
+}
+.links>ul{
+    display: flex;
+    gap: 20px;
+}
+.links ul li{
+    list-style: none;
+    font-style: italic;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.head-content{
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 100vh;
+}
