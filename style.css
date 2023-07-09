@@ -138,3 +138,62 @@ nav{
 hr{
     height: 20px ;
 }
+
+.appoinment{
+    margin: auto;
+    font-size: 24px;
+    color: white;
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-size:cover;
+background-repeat: no-repeat;
+background-color: rgb(85, 115, 105);
+margin-top: -20px;
+border-radius: 10px;
+padding: 20px;
+} 
+.appoin-m{
+    display: flex;
+}
+.blog-menu{
+    width: 420px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+     box-shadow: 0px 6px 50px 0px rgba(50, 47, 47, 0.5);
+
+
+}
+
+.blog-h{
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.blog-p{
+    font-size: 25px;
+    margin: auto;
+    width: 850px;
+    margin-bottom: 30px;
+}
+.blog-img{
+    width: 415px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.blog-main-h{
+    font-size: 30px;
+}
+.blog-main-p{
+    font-size: 20px;
+}
+.blog-main{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+}
