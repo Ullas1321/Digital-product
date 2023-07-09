@@ -54,7 +54,7 @@ nav{
     background-color: red;
 }
 .service{
-    padding: 20px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,7 +164,7 @@ justify-content: center;
 background-size:cover;
 background-repeat: no-repeat;
 background-color: rgb(85, 115, 105);
-margin-top: -20px;
+margin-top: -30px;
 border-radius: 10px;
 padding: 20px;
 } 
@@ -211,3 +211,30 @@ padding: 20px;
     justify-content:space-around;
     padding: 30px;
 }
+.foot-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: rgb(27, 26, 26);
+    padding: 50px;
+    color: white;
+}
+.foot-menu{
+    height: auto;
+    width: 300px;
+
+
+}
+.foot-menu ul li{
+    list-style: none;
+}
+.foot-menu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    
+
+    
+}
+
